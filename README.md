@@ -6,14 +6,17 @@ This program will take in images (JPG, JPEG, JFIF, JIF, JPE, JFI), read the GPS 
 * Python 3.8.0 (latest version)
 * Pyinstaller
 * tkinter (included with python, no need to install. Mac users read NOTE below)
-**NOTE**: If you are using macOS 10.6 or later, the Apple supplied version of tkinter in Python has serious bugs and it is recommended to install the Python version provided by Python.org. For more information, visit https://www.python.org/download/mac/tcltk/
+* **NOTE**: If you are using macOS 10.6 or later, the Apple supplied version of tkinter in Python has serious bugs and it is recommended to install the Python version provided by Python.org. For more information, visit https://www.python.org/download/mac/tcltk/
 
 ## ==> INSTALLATION:
 1. Download this python file from Github
 2. Ensure Python 3.8.0 is installed.
+	
 	a. To check your python version type 'python --version' in the command line.
+	
 	b. Python can be downloaded from https://www.python.org/downloads/
 3. Install Pillow and geopy - Type 'pip install Pillow geopy'
+  
   a. **NOTE**: My program will attempt to install these dependencies itself if they are not present.
 4. Run the program. 'python jpeg2zip.py'
 
